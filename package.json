@@ -1,0 +1,47 @@
+{
+    "name": "clm-movie-node-challenge",
+    "version": "1.0.0",
+    "description": "REST API microservice for OMDb movie searching and customized plot getter made in Koa.js.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "dev": "nodemon src/index.js",
+        "prettier": "npx prettier --write .",
+        "lint": "npx eslint . --fix",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bmolinh/clm-movie-node-challenge.git"
+    },
+    "keywords": [
+        "api",
+        "koa",
+        "node",
+        "rest",
+        "restful",
+        "swagger",
+        "koa2",
+        "joi"
+    ],
+    "author": "Byron Molina",
+    "license": "AGPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/bmolinh/clm-movie-node-challenge/issues"
+    },
+    "homepage": "https://github.com/bmolinh/clm-movie-node-challenge#readme",
+    "dependencies": {
+        "@koa/router": "^10.1.1",
+        "dotenv": "^10.0.0",
+        "joi": "^17.4.2",
+        "koa": "^2.13.4"
+    },
+    "devDependencies": {
+        "eslint": "^7.32.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.25.2",
+        "nodemon": "^2.0.14",
+        "prettier": "^2.4.1"
+    }
+}
